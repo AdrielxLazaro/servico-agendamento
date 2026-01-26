@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/1200x/71/2e/f6/712ef6b087f64f3d7f7ea8d5735b6795.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: rgb(225, 225, 225, 0.4);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+}
+.input, select {
+  width: 70%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.data{
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.nome{
+  width: 65%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.hora{
+  width: 65%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.btn-agendar {
+  background-color: #ec0303;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+  width: 50%;
+  height: 45px;
+}
+
+.btn-agendar:hover {
+  background-color: #ca4545;
+}
+.agendamento{
+  background: #f5f5f5;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-left: 4px solid #000;
+}
+
+.container h1{
+  text-align: center;
+  text-shadow: 2px 2px 2px #fff;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.container h2 {
+  text-align: center;
+  text-shadow: 1px 2px 2px #2c2c2c;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
