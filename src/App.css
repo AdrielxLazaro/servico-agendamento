@@ -1,7 +1,10 @@
+/* Reset básico*/
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/* Fundo da página */
 body {
   margin: 0;
   background-image: url("https://i.pinimg.com/1200x/71/2e/f6/712ef6b087f64f3d7f7ea8d5735b6795.jpg");
@@ -9,62 +12,88 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* Estilo do container */
 .container {
-  max-width: 500px;
+  width: 100%;
+  max-width: 420px;
   margin: 60px auto;
-  background: rgb(225, 225, 225, 0.4);
-  padding: 25px;
+  background: #020617;
+  padding: 24px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
 }
+/* inputs e selects */
 .input, select {
-  width: 70%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #000;
-  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
   font-size: 14px;
+  outline: none;
+  background: #050d32;
+  color: #f8fafc;
+  border: 3px solid #1e293b;
+}
+.input::placeholder {
+  color: #94a3b8;
 }
 .data{
-  width: 65%;
-  padding: 10px;
-  border: 1px solid #000;
-  border-radius: 6px;
-  margin-top: 5px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
   font-size: 14px;
+  outline: none;
+  background: #050d32;
+  color: #f8fafc;
+  border: 3px solid #1e293b;
 }
 .nome{
-  width: 65%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #000;
-  border-radius: 6px;
+   width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
   font-size: 14px;
+  outline: none;
+  background: #050d32;
+  color: #f8fafc;
+  border: 3px solid #1e293b;
 }
 .hora{
-  width: 65%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #000;
-  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
   font-size: 14px;
+  outline: none;
+  background: #050d32;
+  color: #f8fafc;
+  border: 3px solid #1e293b;
 }
+/* Botão de agendar */
 .btn-agendar {
-  background-color: #ec0303;
-  color: #fff;
+  background-color: #6366f1;
+  color: #ffffff;
   border: none;
   cursor: pointer;
-  margin-top: 15px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: bold;
-  transition: 0.3s;
-  width: 50%;
-  height: 45px;
+  transition: 0.2s;
+  width: 100%;
+  padding: 12px;
 }
 
 .btn-agendar:hover {
-  background-color: #ca4545;
+  background-color: #4f46e5;
 }
 .agendamento{
   background: #f5f5f5;
@@ -72,21 +101,23 @@ body {
   margin-top: 10px;
   border-radius: 6px;
   border-left: 4px solid #000;
+  
 }
-
+/*Titulos*/
 .container h1{
   text-align: center;
-  text-shadow: 2px 2px 2px #fff;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px #f90000;
+  margin-bottom: 20px;
+  color: #f8fafc;
 }
 .container h2 {
   text-align: center;
   text-shadow: 1px 2px 2px #2c2c2c;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: #020617;
+}
+div label{
+ color: #ffffff;
+ text-shadow: 2px 2px 2px #f90000;
+ font-size: 20px;
 }
