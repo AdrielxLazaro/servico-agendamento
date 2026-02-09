@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Navigate } from "react-router-dom";
+import "./App.css";
 
 function Admin(){
 const isAdmin = localStorage.getItem('admin') === "true";
@@ -50,6 +51,7 @@ return (
                 ))}
             </div>
             <button
+            className="btn-agendar"
                 style={{marginTop: "20px"}} 
                 onClick={()=> {
                     localStorage.removeItem('admin');
