@@ -38,7 +38,7 @@ function Login() {
                     onChange={(e) => setSenha(e.target.value)}
                 />
                 <button
-                    className="btn-agendar" 
+                    className="button" 
                  type="submit">Entrar
                  </button>
             </form>

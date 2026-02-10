@@ -80,7 +80,7 @@ body {
   border: 3px solid #1e293b;
 }
 /* Botão de agendar */
-.btn-agendar {
+.button {
   background-color: #6366f1;
   color: #ffffff;
   border: none;
@@ -92,7 +92,7 @@ body {
   padding: 12px;
 }
 
-.btn-agendar:hover {
+.button:hover {
   background-color: #4f46e5;
 }
 .agendamento{

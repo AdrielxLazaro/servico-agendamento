@@ -140,7 +140,7 @@ function Agendamento() {
         </div>
         <br />
 
-        <button className='btn-agendar' type='submit'>Agendar</button>
+        <button className='button' type='submit'>Agendar</button>
       </form>
 
       <hr />

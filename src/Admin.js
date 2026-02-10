@@ -51,7 +51,7 @@ return (
                 ))}
             </div>
             <button
-            className="btn-agendar"
+            className="button"
                 style={{marginTop: "20px"}} 
                 onClick={()=> {
                     localStorage.removeItem('admin');
